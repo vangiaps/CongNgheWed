@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'PremierSans';
+    src: url('../assets/font/PremierSans.eot');
+    src: url('../assets/font/PremierSans.eot?#iefix') format('embedded-opentype'),
+        url('../assets/font/PremierSans.woff2') format('woff2'),
+        url('../assets/font/PremierSans.woff') format('woff'),
+        url('../assets/font/PremierSans.ttf') format('truetype'),
+        url('../assets/font/PremierSans.svg#PremierSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PremierSans-Heavy';
+    src: url('../assets/font/PremierLeague-Heavy.eot');
+    src: url('../assets/font/PremierLeague-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../assets/font/PremierLeague-Heavy.woff2') format('woff2'),
+        url('../assets/font/PremierLeague-Heavy.woff') format('woff'),
+        url('../assets/font/PremierLeague-Heavy.ttf') format('truetype'),
+        url('../assets/font/PremierLeague-Heavy.svg#PremierLeague-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../assets/font/ArialMT.eot');
+    src: url('../assets/font/ArialMT.eot?#iefix') format('embedded-opentype'),
+        url('../assets/font/ArialMT.woff2') format('woff2'),
+        url('../assets/font/ArialMT.woff') format('woff'),
+        url('../assets/font/ArialMT.ttf') format('truetype'),
+        url('../assets/font/ArialMT.svg#ArialMT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PremierSans-Bold';
+    src: url('../assets/font/PremierLeague-Bold.woff2') format('woff2'),
+        url('../assets/font/PremierLeague-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PremierSans-Regular';
+    src: url('../assets/font/PremierLeague-Regular.woff2') format('woff2'),
+        url('../assets/font/PremierLeague-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

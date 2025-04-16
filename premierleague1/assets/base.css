@@ -1,0 +1,18 @@
+:root{
+    --color--primary: #37003c;
+    --text--color:#76766f;
+    --Europa--League--gardian:inear-gradient(92.73deg, #000, #3e0704);
+    --Conference--League--gardian:linear-gradient(92.73deg, #000, #13321f);
+    --Champions--League--background:linear-gradient(92.73deg, #0f3df1, #0319cc);
+    
+}
+.wrapper{
+    max-width: 1376px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+.header{
+    font-family: 'PremierSans-Heavy','Arial';   
+    position: relative;
+}
+

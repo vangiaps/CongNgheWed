@@ -1,0 +1,135 @@
+/* header */
+
+/* clubList */
+.header__club{
+    height: 64px;
+    display: flex;
+    padding: 12px 0px 12px 165px;
+    font-size: 14px;
+    align-items: center;
+    column-gap: 12px;
+    position: relative;
+}
+.header__club__sites{
+    width: 85px;
+    height: 18px;
+    font-size: 12.5px;
+    color: #767b7f;
+}
+.club-list{
+    display: flex;
+    
+    height: 40px;
+    padding: 0px 24px 0px 0px;
+    column-gap: 12px;
+    row-gap: 12px;
+}
+.club-list__club__img{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.club-list__club__img img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+
+/* container */
+
+.container{
+   position: relative;
+}
+.logo{
+    position: absolute;
+    height: 179px;
+    width: 114px;
+    top: -64px;
+    cursor: pointer;
+}
+.logo img{
+    display: flex;
+    justify-self: center;
+    width: 88px;
+    height: 112px;
+    margin: 28px 0px 0px 0px;
+}
+
+/*navMain*/
+.navContainer{
+    position: relative;
+    display: flex;
+    height: 60px;
+    background-color: #37003c;
+}
+.mainNav{
+    padding: 0px 0px 0px 140px;
+    height: 100%;
+}
+.listNav{
+    display: flex;
+    height: 100%;
+    
+}
+.listNav li{
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    font-size: 16.5px;
+    color: #ffffff;
+}
+.right{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+.search{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    color: #ffffff;
+}
+.sign{
+    height: 34px;
+    display: flex;
+    align-items: center;
+    margin: 0px 18px 0px 24px;
+    padding: 4px 8px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.right__text{
+    font-size: 14px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 0px 20px;
+}
+
+/*menuBar*/
+.menuBar{
+    position: relative;
+    padding: 0px 0px 0px 145px;
+    height: 55px;
+    font-size: 12px;
+}
+.menuBar__list{
+    display: flex; 
+    height: 100%;
+}
+.menuBar__list li{
+    display: flex;
+   padding: 4px 20px;
+   height: 100%; 
+    align-items: center; 
+}      
+.menuBar__list li a{
+      color: #76766f;
+} 
