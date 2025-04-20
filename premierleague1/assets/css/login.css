@@ -1,0 +1,123 @@
+.login__header {
+    position: relative;
+    height: 213px;
+    margin: 0px 0px 40px 0px;
+    background-color: #37003c;
+    /* padding: 70px 0px 52px 0px; */
+}
+
+
+.login__header img {
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.login__title {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    max-width: 1370px;
+    margin-left: 260px;
+    padding: 0px 30px;
+    color: #fff;
+    font-family: 'PremierSans-Bold', 'Arial';
+
+}
+
+.login__title h1 {
+    font-size: 73px;
+}
+
+.login__wrapper {
+    max-width: 490px;
+    margin: auto;
+}
+
+.login__container__title {
+    background-color: #e90052;
+    padding: 10px 10px;
+    margin-bottom: 35px;
+    color: #fff;
+    font-family: 'PremierSans-Regular', 'Arial';
+}
+
+.login__container__form {
+    padding: 0px 20px;
+}
+
+.form__groud {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.form__groud label {
+    margin-bottom: 5px;
+    font-family: 'PremierSans-Bold', 'Arial';   
+}
+
+.form__groud input {
+    height: 47px;
+    width: 100%;
+    background-color: #e8e8e8;
+    border: none;
+    border-bottom: 1px solid #76766f;
+    font-family: 'PremierSans-Regular', 'Arial';
+    padding: 15px;
+}
+
+.form__groud__login {
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #e90052;
+    font-family: 'PremierSans-Bold', 'Arial';
+}
+
+.btn__login {
+    height: 100%;
+    width: 225px;
+    padding: 0px 30px;
+    border: none;
+    background-color: #37003c;
+    color: #fff;
+    font-family: 'PremierSans-Regular', 'Arial';
+    font-size: 14px;
+}
+
+.form__groud__or {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 16px;
+    width: 330px;
+    margin: 0px auto;
+    margin-bottom: 25px;
+}
+.form__groud__or::before,
+.form__groud__or::after {
+    content: '';
+    flex: 1;
+    height: 0px;
+    border-bottom: 0.5px solid #cececb;
+}
+.form__groud__or span {
+    padding: 7px;
+    font-family: 'PremierSans-Regular', 'Arial';
+    color: #666663;
+}
+.login__google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+    column-gap: 8px;
+}
