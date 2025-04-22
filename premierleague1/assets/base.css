@@ -37,6 +37,15 @@ body{
     column-gap: 12px;
     position: relative;
 }
+@media (max-width: 480px) {
+    .header__club {
+        flex-direction: column;  /* Cho các item xuống hàng nếu quá hẹp */
+        align-items: flex-start;
+        height: auto;            /* Chiều cao tự động theo nội dung */
+        padding: 10px;
+        row-gap: 8px;            /* Thêm khoảng cách giữa các dòng */
+    }
+}
 .header__club__sites{
     width: 85px;
     height: 18px;
@@ -64,6 +73,11 @@ body{
     justify-content: center;
     width: 32px;
     height: 32px;
+}
+.club-list__club__img img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.2s ease;
 }
 
 /* container */
@@ -130,6 +144,7 @@ body{
     padding: 4px 8px;
     background-color: #ffffff;
     border-radius: 5px;
+    cursor: pointer;
 }
 .right__text{
     font-size: 14px;
