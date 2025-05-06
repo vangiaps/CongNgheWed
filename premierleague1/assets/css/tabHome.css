@@ -2,13 +2,13 @@
     width: 100%;
    
 }
-.mainContent__color{
-     background-color: #37003c;
-     height: 623px;
-     /* display: flex; */
-     /* flex-direction: column; */
-     /* position: relative; */
-     /* height: fit-content; */
+.list--news__color{
+    background-color: #37003c;
+    height: 623px;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    z-index: -1;
 }
 .tabHome{
     display: flex;
@@ -23,7 +23,7 @@
 }
 .sideBar__header{
     width: 100%;
-    height: 96px;
+    /* height: 96px; */
     border-radius: 12.8px 12.8px 0px 0px;
     padding: 0px 0px 8px 0px;
     border: 1px solid #ebe5eb;
@@ -34,7 +34,8 @@
 .sideBar__header__header{
     display: flex;
     align-items: center;
-    background-image: url('/assets/images/backgroud/sm-header-pattern.svg');
+    justify-content: center;
+    background-image: url('/premierleague1/assets/images/backgroud/sm-header-pattern.svg');
     background-size: cover;
     height: 58px;
     width: 100%;
@@ -42,12 +43,15 @@
 }
 .sideBar__header__header img{
     height: 40px;
+    margin-right: 15px;
 }
 .sideBar__header__name{
     font-size: 25px;
     font-weight: 400;
     color: #fff;
-    margin: 0px 0px 0px 35px;
+    display: flex;
+    text-align: center;
+    /* margin: 0px 0px 0px 35px; */
 }
 
 /*title*/
@@ -155,7 +159,7 @@
     /* height: 16px;  */
     padding: 12px 56px 12px 56px;
     border: 1px solid #ebe5eb;
-    border-radius: 12.8px;
+    border-radius: 0.4rem;
     margin: 8px 8px 0px 8px;
 }
 .sideBar__infor__viewAll__text{
@@ -163,6 +167,104 @@
     font-size: 14px;
     cursor: pointer;
     color: #37003c;
+}
+
+/* BXH */
+.bxh{
+border: 1px solid #ebe5eb;
+margin-bottom: 16px;
+overflow: hidden;
+border-top: none;
+border-radius: 0px 0px 12.8px 12.8px;
+}
+.league__tables__sm{
+    width: 100%;
+    background-color: #fff;
+    border-top: none;
+    border-collapse: collapse;
+}
+.league__tables__sm__thead{
+    height: 31px;
+}
+.league__tables__sm__thead th{
+    font-size: 10px;
+    color: #76766f;
+}
+.league__tables__sm__thead th:nth-child(1){
+    text-align: center  ;
+}
+.league__tables__sm__thead th:nth-child(2){
+    text-align: left;
+}
+.league__tables__sm__thead th:nth-child(3),
+.league__tables__sm__thead th:nth-child(4),
+.league__tables__sm__thead th:nth-child(5){
+    text-align: center;
+}
+.league__tables__sm__thead th:nth-child(2){
+    /* width: 100%;  */
+    padding: 1px 1px 1px 22px;
+}
+.league__tables__sm__thead th:nth-child(1){
+    padding: 1px 5px 1px 1px;
+}
+.league__tables__sm__thead th:nth-child(3){
+    width: 36px;
+    padding: 1px 1px 1px 1px;
+}
+.league__tables__sm__thead th:nth-child(4){
+    width: 40px;
+    padding: 1px 6px 1px 4px;
+}
+.league__tables__sm__thead th:nth-child(5){
+    width: 40px;
+    padding: 1px 8px 1px 1px;
+}
+
+.league__tables__sm__tbody{
+    color: #37003c;
+
+}
+.league__tables__sm__tbody td{
+    border-bottom: 1px solid #ebe5eb;
+}
+.league__tables__sm__tbody td:nth-child(1){
+    padding: 8.5px 4px;
+    font-family: 'PremierSans-Regular','Arial';
+    font-size: 12px;
+}
+.league__tables__sm__tbody td:nth-child(3),
+.league__tables__sm__tbody td:nth-child(4){
+    text-align: center;
+    padding: 8.5px 4px;
+    font-family: 'PremierSans-Regular','Arial';
+    font-size: 12px;
+}
+.team{
+    padding: 8.5px 4px;
+}
+.team a{
+    display: flex; 
+    align-items: center;
+    gap:    8px;   
+    color: #37003c;   
+}
+.team img{
+    height: 25px;
+    width: 25px;
+}
+.points{
+    text-align: center;
+}
+.viewMore__bxh{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin:12px 5px 5px 5px;
+    padding: 12px 16px;
+    border: 1px solid #ebe5eb;
+    border-radius: 0.4rem;
+    font-family: 'PremierSans-Regular','Arial';   
 }
 
 /*News*/
@@ -239,7 +341,129 @@
     font-family: 'PremierSans-Regular','Arial';
     font-size: 20px;
 }
+/* === */
 .list--new__content{
     height: 50px;
+    padding: 10px 12px 12px 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.list--new__content__item{
+   display: flex;
+   align-items: center; 
+   height: 35px;
+   color: #fff;
+}
+.list--new__content__item__icon i{
+    height: 25px;
+    width: 25px;
+    margin: 0px 4px;
+}
+.list--new__content__item__text{
+    font-family: 'PremierSans-Regular','Arial';
+   font-size: 12px;
 }
 
+/*  */
+.FeaturedPlayers{
+    margin-bottom: 30px;
+}
+.FeaturedPlayers header{
+    padding: 5px 12px 10px 12px;
+    color: #37003c;
+}
+.FeaturedPlayers__wrapper{
+    width: 100;
+    display: flex;
+    justify-content: space-between;
+}
+.stats-card__container{
+    border-radius: 12.8px;
+    overflow: hidden;
+    border: 1px solid #ebe5eb;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.stats-card__top-section{
+    display: flex;
+    background-color: #ebe5eb81;
+}
+.stats-card__backgroud{
+    position: absolute;
+    /* height: 100%; */
+    width: 100%;
+}
+.stats-card__list-wrapper{
+    padding: 16px 5px 20px 10px;
+}
+.stats-card__list-index{
+    margin: 12px 0px 0px 0px;
+    color: #37003c;
+    line-height: 100%;
+}
+.list-index__text{
+    margin-bottom: 10px;
+}
+.index__name{
+    font-family: 'PremierSans-Regular','Arial';
+    font-size: 12px;
+    margin: 2px;
+}
+.index__number{
+    font-family: 'PremierSans-Heavy','Arial';
+    font-size: 25px;
+    font-weight: 800;
+}
+.stats-card__list__club{
+    height: 74px;
+    width: 74px;
+}
+.stats-card__list__club img{
+    height: 100%;
+    width: 100%;
+}
+.stats-card__player-image{  
+    display: flex;
+    align-items: flex-end;
+    background-image: linear-gradient(284.38deg, rgb(145, 23, 18), rgb(220, 7, 20));
+}
+.stats-card__player-image img{
+    box-sizing: border-box;
+    padding: 0px 4px;
+}
+.stats-card__infor{
+    padding: 10px 10px 0px 10px;
+}
+.stats-card__player-name_first{
+    box-sizing: border-box;
+    line-height: 100%;
+    font-family: 'PremierSans-Heavy','Arial';
+    font-size: 16px;
+    color: #37003c;
+}
+.stats-card__player-name_last{
+    display: block;
+    line-height: 100%;
+    font-family: 'PremierSans-Heavy','Arial';
+    font-size: 36px;
+    color: #37003c;
+}
+.stats-card__infor__position{
+    font-family: 'premierSans-Regular','Arial';
+    font-size: 12px;
+    color: #000000;
+}
+.stats-card__bottom{
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.nationality{
+    display: flex;
+    align-items: center;
+}
+.nationalty-name{
+    margin-left: 5px;
+    font-family: 'premierSans-Regular',"Arial";
+    font-size: 14px;
+}

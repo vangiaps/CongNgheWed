@@ -1,0 +1,11 @@
+.page__header{
+    /* display: flex; */
+    background-size: cover;
+    height: 195px;
+    background-image: url('/premierleague1/assets/images/background/primary-bg.svg');
+}   
+.page__header__header{
+    background-image: url('https://www.premierleague.com/resources/rebrand/v7.153.66/i/elements/backgrounds/primary-graphic.svg');
+    background-size: cover;
+    height: 100%;
+}
