@@ -1,11 +1,221 @@
+
 .page__header{
     /* display: flex; */
     background-size: cover;
     height: 195px;
+    width: 100%;
+    margin-bottom: 32px;
     background-image: url('/premierleague1/assets/images/background/primary-bg.svg');
 }   
 .page__header__header{
     background-image: url('https://www.premierleague.com/resources/rebrand/v7.153.66/i/elements/backgrounds/primary-graphic.svg');
     background-size: cover;
     height: 100%;
+    padding: 0px 8px;
+}
+.page__header__wrapper{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0px 60px;
+    gap: 60px;
+}
+.page__header__title{
+    font-size: 60px;
+    color: var(--text--color--white);
+}
+.search__clubs{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   position: relative;
+}
+.search__clubs__input{
+    height: 54px; 
+    padding: 0px 16px;
+    width: 466px;
+    border: 1px solid var(--color--border);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'premierSans-Regular','Arial';
+    font-size: 14px;
+}
+.search__icon{
+    display: flex;
+    position: absolute ;
+    padding-left: 16px;
+    border-left: 1px solid #1d1d1e;
+    cursor: pointer;
+    right: 10px;
+}
+
+/*  */
+.club__wrapper{
+    max-width: 1360px;
+    margin: auto;
+}
+.club-card{
+    padding: 10px;
+}
+.club-card__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    gap: 10px;
+    list-style: none;
+}
+.club-card-wrapper{
+    display: block;
+    width: 255px;
+    height: 150px;
+    position: relative;
+}
+.club-card__logo{
+    display: block;
+    height: 78px;
+}
+.club-card__logo img{
+    height: 100%;
+}
+.club-card__link{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+   height: 150px;
+    width: 255px;
+    justify-content: space-between;
+    position: relative;
+    border: 1px solid var( --color--border);
+    border-radius: 12px;
+    overflow: hidden;
+}
+ .club-card__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .club-card__name h2{
+    color: var(--color--primary);
+    font-size: 20px;
+
+ }
+ .club-card__info svg{
+    width: 12.5px;
+    height: 12.5px;
+ }
+ .club-card__background{
+    width: 255px;
+    height: 150px;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+ }
+ .club-card__background svg{
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    z-index: -1;
+ }
+ .club-card__link:hover {
+        background:linear-gradient(to right, #33c3ff, #8e24aa);
+ }
+.club-card__link:hover .club-card__name h2{
+        transition: color 0.2s;
+    color: var(--text--color--white);
+}
+/*  */
+/*  */
+.team-index__title{
+    margin-bottom: 10px;
+    color: var(--color--primary);
+  
+}
+.indexAlltime{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.team-index__table{
+    width: 100%;
+    table-layout: fixed;
+    text-align: left;
+     border-collapse: collapse;
+}
+.team-index__header th{
+    background-color: #efeeee;
+    border-bottom: 1px solid var(--color--border);
+    font-size: 14px;
+    color: #87668a;
+    padding: 0px 8px;
+}
+
+.team-index__container tr td{
+    color: var(--color--primary);
+    border-bottom: 1px solid var(--color--border);
+}
+.team a{
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+.team__image{
+    width: 32px;
+    height: 32px;
+}
+.team__name{
+    margin-left: 16px;
+    font-family: var(--font--family--regular);
+    color: var(--color--primary);
+}
+.icon__arrow{
+    width: 12px;
+    height: 12px;
+    right: 9px;
+}
+.team__stadium a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px;
+}
+.team__stadium a div{
+    display: flex;
+    align-items: center;
+}
+.logo-stadium{
+    width: 18px;
+    height: 18px;
+    margin-right: 9px;
+}
+.stadium-name{
+    font-family: var(--font--family--regular);
+    color: var(--color--primary);
+}
+.team__stadium{
+    position: relative;
+    padding: 0px 8px;
+}
+.team__stadium::before{
+    content: "";
+    width: 1px;
+    height: 30px;
+    background-color: var(--color--border);
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+.team-index__container .team:hover .team__name{
+    text-decoration: underline;
+}
+.team__stadium:hover .icon__arrow{
+    position: absolute;
+    right: 5px;
+    transition: right 0.2s ease;
+}
+.team__stadium:hover .stadium-name{
+    text-decoration: underline;
 }
