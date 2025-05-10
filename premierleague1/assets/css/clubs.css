@@ -88,6 +88,7 @@
     border: 1px solid var( --color--border);
     border-radius: 12px;
     overflow: hidden;
+    position: relative;
 }
  .club-card__info{
     display: flex;
@@ -119,11 +120,21 @@
     top: 0px;
     z-index: -1;
  }
+ .club-card__link::before{
+    content: "";
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #33c3ff, #8e24aa);
+    position: absolute;
+    z-index: 10;
+ }
  .club-card__link:hover {
-        background:linear-gradient(to right, #33c3ff, #8e24aa);
+    background:linear-gradient(to right, #33c3ff, #8e24aa);
  }
 .club-card__link:hover .club-card__name h2{
-        transition: color 0.2s;
+    transition: color 0.2s;
     color: var(--text--color--white);
 }
 /*  */

@@ -6,8 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/base.css">
     <link rel="stylesheet" href="assets/reset.css">
-    <link rel="stylesheet" href="assets/css/login.css">
     <link rel="stylesheet" href="assets/font.css">
+    <link rel="stylesheet" href="/premierleague1/assets/css/register.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
@@ -254,20 +254,20 @@
         </div>
     </header>
     <!-- __________ -->
-    <main class="login__main">
-        <div class="login__header">
+    <main class="register__main">
+        <div class="register__header">
             <img src="assets/images/background/heading-bg-desktop.svg" alt="">
-            <div class="login__title">
+            <div class="register__title">
               <h1>Your Account</h1>    
             </div>
 
         </div>
-        <div class="login__wrapper">
+        <div class="register__wrapper">
             
-            <form method="" action="" class="login__container">
+            <form method="" action="" class="register__container">
                 
-                <div class="login__container__title">
-                    Sign In
+                <div class="register__container__title">
+                    Register
                     <div class="vaiTro">
                         <select name="role" id="role">
                             <option value="">User</option>
@@ -275,7 +275,14 @@
                         </select>
                     </div>
                 </div>
-                <div class="login__container__form">
+                <div class="register__container__form">
+
+                    <div class="form__groud">
+                        <label for="">Name</label>
+                        <div class="input">
+                            <input type="email" placeholder="Name" class="input__email">
+                        </div>
+                    </div> 
                     <div class="form__groud">
                         <label for="">Email</label>
                         <div class="input">
@@ -288,9 +295,9 @@
                             <input type="password" placeholder="Password" class="input__password">
                         </div>
                     </div>    
-                    <div class="form__groud__login">
-                        <a href="/premierleague1/register.html">Don't have a Premier League account?</a>
-                        <button class="btn__login">Sign in</button>
+                    <div class="form__groud__register">
+                        <!-- <a>Forgot login details?</a> -->
+                        <button class="btn__register">Done</button>
                     </div> 
                     <div class="form__groud__or">
                         <span>or login with</span>

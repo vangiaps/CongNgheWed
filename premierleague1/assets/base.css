@@ -144,6 +144,16 @@ body{
     justify-content: center;
     width: 60px;
     color: #ffffff;
+    position: relative;
+}
+.search::before{
+    content: "";
+    width: 1px;
+    height: 100%;
+    left: 0;
+    opacity: 30%;
+    background-color: var(--color--border);
+    position: absolute;
 }
 .sign{
     height: 34px;

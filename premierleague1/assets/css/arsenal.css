@@ -1,0 +1,334 @@
+.club-header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 24px 0px 61px 0px;
+    
+}
+.club-header__content{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.club-header__svg-decoration{
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient(284.38deg, #be000a, #ff0203);
+    background-size: cover;
+}
+.club-header__content__logo{
+    margin-left: 56px;
+    height: 128px;
+    width: 128px;
+}
+.club-header__content__info{
+    margin-left: 16px;
+}
+.club-header__name{
+    font-family: var(--font--family--heavy);
+    font-size: 61px;
+    color: var(--text--color--white);
+}
+.info-stadium{
+    display: flex;
+    gap: 20px;
+    color: var(--text--color--white);
+    font-family: var(--font--family--regular);
+}
+.club-header__image{
+    border-radius: 12px 0px 0px 12px;
+    overflow: hidden;  
+}
+.club-wrapper{
+    display: block;
+    max-width: 1376px;
+    padding: 0px 8px;
+    margin: auto;
+    position: relative;
+    top: -28px;
+    margin-bottom: 32px;
+}
+.club-navigation{
+    display: flex;
+    gap: 15px;
+}
+.club-navigation__link{
+    /* height: 18px; */
+    font-size: 12px;
+    padding: 8px 16px;
+    background-color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    color: var(--color--primary);
+    font-family: var(--font--family--regular);
+}
+.club-navigation__link:hover{
+    font-family: var(--font--family--heavy);
+}
+/* .club-navigation__link::after{
+    content: attr(data-text);
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+        font-family: var(--font--family--heavy);
+} */
+
+/* overview */
+.image-stadium{
+    position: relative;
+    display: inline-block;
+    top: -50px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    pointer-events: none;
+}
+.logo-club{
+    position: absolute;
+    display: flex;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    margin: 0px 32px 40px 0px;
+}
+.logo-club img{
+    height: 140px;
+    width: 140px;
+    margin-right: 32px;
+}
+.logo-club h1{
+    font-size: 82px;
+    color: #fff;
+}
+/* fixture */
+.fixture-wrapper{
+    max-width: 1360px;
+    margin: auto;
+}
+.background-header{
+    background-image: url('/premierleague1/assets/images/background/heading-bg-desktop.svg');
+    background-size: cover;
+    height: 120px;
+    background-color: var(--color--primary);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    display: block;
+    z-index: -1;
+}
+.fixture__header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    margin-bottom: 52px;
+}
+.fixture__header h1{
+    font-size: 61px;
+    color: var(--text--color--white);
+}
+
+.fixture__container{
+    width: 100%;
+    position: relative;
+    margin-bottom: 32px;
+}
+.fixture__container__date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px;
+    margin-bottom: 12px;
+}
+.fixture__date{
+    color: var(--color--primary);
+    font-size: 20px;
+}
+.fixture__container__logo img{
+    height: 30px;
+}
+.matches-fixture__container{
+    display: flex;
+    align-items: center;
+    /* height: 50px; */
+    padding: 10px 0px;
+    gap: 200px;
+    border-bottom: 1px solid var(--color--border);
+}
+.match-fixture__teams{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 60px;
+    justify-content: center;
+}
+.match-fixture__teams span{
+    display: flex;
+    align-items: center;
+}
+.team__name{
+    font-size: 16px;
+    color: var(--color--primary);
+}
+.dateTime{
+    display: block;
+    color: var(--color--primary);
+    font-family: var(--font--family--regular);
+    padding: 2px 5px;
+    border: 1px solid var(--color--border);
+    border-radius: 5px;
+    position: absolute;
+}
+.team__logo{
+    width: 32px;
+    height: 32px;
+    margin: 0px 4px;
+}
+.match-fixture__stadium-name{
+    display: flex;
+    align-items: center;
+}
+.match-fixture__stadium-name span img {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+.match-fixture__stadium-name span{
+    font-family: var(--font--family--regular);
+    font-size: 13px;
+    color: var(--color--primary);
+}
+.home-team{
+    width: 200px;
+    display: flex;
+    padding-right:40px ;
+    justify-content: end;
+}
+.away-team{
+    width: 200px;
+    display: flex;
+    padding-left: 40px;
+}
+/* results */
+.results-wrapper{
+    max-width: 1360px;
+    margin: auto;
+}
+.results__header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    margin-bottom: 52px;
+}
+.results__header h1{
+    font-size: 61px;
+    color: var(--text--color--white);
+}
+
+.results__container{
+    width: 100%;
+    position: relative;
+    margin-bottom: 32px;
+}
+.results__container__date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px;
+    margin-bottom: 12px;
+}
+.results__date{
+    color: var(--color--primary);
+    font-size: 20px;
+}
+.results__container__logo img{
+    height: 30px;
+}
+.matches-results__container{
+    display: flex;
+    align-items: center;
+    /* height: 50px; */
+    padding: 10px 0px;
+    gap: 200px;
+    border-bottom: 1px solid var(--color--border);
+}
+.match-results__teams{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-left: 60px;
+    justify-content: center;
+}
+.match-results__teams span{
+    display: flex;
+    align-items: center;
+}
+.team__name{
+    font-size: 16px;
+    color: var(--color--primary);
+}
+.match-score{
+    display: block;
+    color: var(--text--color--white);
+    font-family: var(--font--family--heavy);
+    padding: 2px 8px;
+    border-radius: 5px;
+    background-color: var(--color--primary);
+    position: absolute;
+}
+.match-score span{
+    margin: 0px 3px;
+}
+.team__logo{
+    width: 32px;
+    height: 32px;
+    margin: 0px 4px;
+}
+.match-results__stadium-name{
+    display: flex;
+    align-items: center;
+}
+.match-results__stadium-name span img {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+.match-results__stadium-name span{
+    font-family: var(--font--family--regular);
+    font-size: 13px;
+    color: var(--color--primary);
+}
+.home-team{
+    width: 200px;
+    display: flex;
+    padding-right:40px ;
+    justify-content: end;
+}
+.away-team{
+    width: 200px;
+    display: flex;
+    padding-left: 40px;
+}
+
+.active{
+    font-family: var(--font--family--heavy);
+}
+.image-stadium.active,
+.fixture-wrapper.active,
+.results-wrapper.active{
+  display: block;
+}
+.image-stadium,
+.fixture-wrapper,
+.results-wrapper {
+  display: none;
+}
